@@ -1,0 +1,5 @@
+Bundle-Version: 0.1.0
+Include-Resource: META-INF=resource,web=web
+GS-Weblet: META-INF/weblet.json
+X-Web-Resource: /weblet/org.greenscape.weblet.webcontent.ui;/web
+X-Web-Resource-Version: 1.0

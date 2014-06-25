@@ -1,0 +1,13 @@
+<div ng-controller="WebContentDisplayEditCtrl">
+	<a class="float-right"
+		ng-click="setView(webletBaseURL + '/' + pagelet.weblet.viewURL)">Back</a>
+	<label>Title<input type="text" ng-model="webcontent.title">
+	</label> <label>Content<textarea rows="15" cols="5"
+			ng-model="webcontent.content"></textarea>
+	</label>
+	<ul class="button-group round">
+		<li><a class="button tiny secondary" ng-click="save()">Save</a></li>
+		<li><a class="button tiny secondary"
+			ng-click="setView(webletBaseURL + '/' + pagelet.weblet.viewURL)">Cancel</a></li>
+	</ul>
+</div>
