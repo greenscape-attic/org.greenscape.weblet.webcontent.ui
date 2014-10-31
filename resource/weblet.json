@@ -1,8 +1,34 @@
-[{
-"weblet-name":"webcontentdisplay",
-"title":"Web Content Display",
-"icon":"icon.png",
-"instanceable":true,
-"viewURL":"view.html",
-"helpURL":"help.html"
-}]
+{
+	"resources":[
+		{
+			"webletResource":{
+				"name":"webcontentdisplayweblet",
+				"title":"Web Content Display",
+				"icon":"icon.png",
+				"instanceable":true,
+				"viewURL":"view.html",
+				"helpURL":"help.html",
+				"loadJS":"js/webcontentdisplay.js",
+				"loadCSS":"",
+				"permissions":{
+					"supports":[
+						"ADD_TO_PAGE",
+						"CONFIGURATION",
+						"VIEW"
+					],
+					"siteMemberDefaults":[
+						"VIEW"
+					],
+					"guestUnsupported":[
+						"CONFIGURATION"
+					]
+					
+				}
+				
+			}
+			
+		}
+		
+	]
+	
+}
