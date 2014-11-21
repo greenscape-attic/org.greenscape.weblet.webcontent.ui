@@ -12,11 +12,24 @@
 				"loadCSS":"",
 				"permissions":{
 					"supports":[
-						"ADD_TO_PAGE",
-						"CONFIGURATION",
-						"VIEW"
+						{
+							"action":"VIEW",
+							"bit":1
+						},
+						{
+							"action":"ADD_TO_PAGE",
+							"bit":2
+						},
+						{
+							"action":"CONFIGURATION",
+							"bit":4
+						}
+						
 					],
 					"siteMemberDefaults":[
+						"VIEW"
+					],
+					"guestDefaults":[
 						"VIEW"
 					],
 					"guestUnsupported":[
