@@ -3,3 +3,5 @@ Include-Resource: META-INF=resource,web=web
 GS-Resource: META-INF/weblet.json
 X-Web-Resource: /weblet/org.greenscape.weblet.webcontent.ui;/web
 X-Web-Resource-Version: 1.0
+javac.source=1.8
+javac.target=1.8
